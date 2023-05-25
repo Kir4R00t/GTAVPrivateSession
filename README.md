@@ -1,6 +1,7 @@
 # GTAVPrivateSession
 Simple Python app designed to create private multiplayer sessions in just one click !
 
-To run the app just double-click on "PVSessionMaker.exe"
+1 - Download "Private session maker" folder
+2 - Simply run "PVSessionMaker"
 
 Enjoy !

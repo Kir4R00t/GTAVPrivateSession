@@ -5,10 +5,9 @@ from tkinter import *
 
 # this function suspends GTA5.exe process for 10 seconds to "kick" all players
 def privatesessionmaker():
-    process_name = "GTA5.exe"
-    subprocess.run(["pssuspend.exe", process_name])
+    subprocess.run(["pssuspend.exe", "GTA5.exe"])
     time.sleep(10)
-    subprocess.run(["pssuspend.exe", "-r", process_name])
+    subprocess.run(["pssuspend.exe", "-r", "GTA5.exe"])
 
 
 def click():

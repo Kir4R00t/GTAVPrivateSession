@@ -9,12 +9,10 @@ def privatesessionmaker():
     time.sleep(10)
     subprocess.run(["pssuspend.exe", "-r", "GTA5.exe"])
 
-
 def click():
-    button.config(state="disabled", text="Private Session created successfully! You may exit now ...")
     privatesessionmaker()
-
-
+    button.config(state="disabled", text="Private Session created successfully! You may exit now ...")
+    
 # Button
 
 window = Tk()
@@ -32,5 +30,3 @@ button = Button(window,
 button.pack()
 
 window.mainloop()
-
-# test
